@@ -1,17 +1,80 @@
-# React + Vite
+# 🔐 Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and secure **Password Manager Web App** built using **React.js** that allows users to store, search, and manage their passwords efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ➕ Add new passwords (Website, Username, Password)
+* 🔍 Search passwords in real-time
+* 👁️ Show / Hide passwords toggle
+* ❌ Delete saved passwords
+* 📭 Displays "No Passwords" when list is empty
+* 🎨 Clean and responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Password-Manager" 
+* **React.js**
+* **JavaScript (ES6+)**
+* **CSS3**
+* **UUID (for unique IDs)**
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── PasswordManager/
+│   └── PasswordItem/
+│
+├── App.js
+├── index.js
+└── index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/amoghkashyap1427/Password-Manager.git
+```
+
+2. Navigate to project folder
+
+```bash
+cd passwordManager
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the app
+
+```bash
+npm run dev
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
+
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
