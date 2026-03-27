@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #9ba9eb;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.top-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background-color: #454f84;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  color: white;
+}
+
+.form-card h2 {
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.input-group img {
+  width: 20px;
+  margin: 10px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-container img {
+  width: 300px;
+}
+
+.bottom-card {
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count {
+  border: 1px solid white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.search-box {
+  display: flex;
+  background-color: #f8fafc;
+  border-radius: 5px;
+}
+
+.search-box img {
+  width: 20px;
+  margin: 10px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.show-password {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.password-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.password-card {
+  display: flex;
+  align-items: center;
+  background-color: #454f84;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.details p {
+  font-size: 14px;
+}
+
+.details img {
+  width: 80px;
+}
+
+.delete {
+  width: 20px;
+  cursor: pointer;
+}
+
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.no-passwords-img {
+  width: 250px;
+  margin-bottom: 10px;
+}

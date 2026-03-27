@@ -1,0 +1,8 @@
+.list-styling {
+  list-style-type: none;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none 0;
+}
