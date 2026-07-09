@@ -14,6 +14,7 @@ A simple and secure **Password Manager Web App** built using **React.js** that a
 * 🎨 Clean and responsive UI
 
 ---
+
 ## 🛠️ Tech Stack
 
 * **React.js**
@@ -24,6 +25,7 @@ A simple and secure **Password Manager Web App** built using **React.js** that a
 ---
 
 ## 📂 Project Structure
+
 ```
 src/
 │
